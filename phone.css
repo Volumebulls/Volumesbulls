@@ -1,0 +1,37 @@
+@media only screen and (max-width: 880px) {
+    .navbar {
+        height: 100%;
+        width: 100%;
+        background-color: #800000;
+    }
+
+    .hero-section {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .collapse {
+        display: block;
+    }
+
+    .collapse ul {
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .collapse ul li {
+        text-align: left;
+    }
+
+    .text-center {
+        margin-top: 0px;
+
+    }
+}
+
+@media only screen and (max-width: 775px) {
+    .d-flex{
+        margin-top: -9px;
+    }
+}
